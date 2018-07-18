@@ -1,0 +1,28 @@
+<resources>
+
+
+    <string name="title_activity_detail">DetailActivity</string>
+    <string name="movie_list_item_na_release_date">N/A</string>
+    <string name="na">N/A</string>
+    <string name="activity_detail_release_date_label">Release date</string>
+    <string name="activity_detail_spoken_languages_label">Spoken languages</string>
+    <string name="activity_detail_runtime_label">Runtime</string>
+    <string name="activity_detail_production_companies_label">Production companies</string>
+    <string name="activity_detail_production_countries_label">Production countries</string>
+    <string name="activity_detail_original_language_label">Original language</string>
+    <string name="activity_detail_genres_label">Genres</string>
+    <string name="activity_detail_for_adult_label">For adult</string>
+    <string name="activity_detail_info_label">movie info</string>
+    <string name="activity_detail_ranking_label">movie ranking</string>
+    <string name="activity_detail_imdb_id_label">IMDB identifier</string>
+    <string name="activity_detail_vote_average_label">Vote average</string>
+    <string name="activity_detail_vote_count_label">Vote count</string>
+    <string name="activity_detail_popularity_label">Popularity</string>
+    <string name="activity_detail_tagline_label">Tagline</string>
+    <string name="activity_detail_revenue_label">Revenue</string>
+    <string name="activity_homepage_reset_filter_button_text">Reset active filter</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="activity_homepage_no_movies_available">No movies available</string>
+    <string name="generic_error">Ops, something was wrong retry later</string>
+</resources>

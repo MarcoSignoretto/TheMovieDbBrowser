@@ -1,0 +1,21 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="movie_list_item_height">100dp</dimen>
+    <dimen name="movie_item_margin">8dp</dimen>
+    <dimen name="movie_list_item_text_padding">8dp</dimen>
+    <dimen name="rounded_button_padding">6dp</dimen>
+    <dimen name="rounded_button_radius">8dp</dimen>
+    <dimen name="android_standard_padding">16dp</dimen>
+
+    <!-- TEXT SIZES-->
+    <dimen name="text_size_xxxsmall">10sp</dimen>
+    <dimen name="text_size_xxsmall">12sp</dimen>
+    <dimen name="text_size_xsmall">14sp</dimen>
+    <dimen name="text_size_small">16sp</dimen>
+    <dimen name="text_size_medium">18sp</dimen>
+    <dimen name="text_size_large">22sp</dimen>
+    <dimen name="text_size_xlarge">24sp</dimen>
+    <dimen name="text_size_xxlarge">26sp</dimen>
+    <dimen name="text_size_xxxlarge">28sp</dimen>
+
+</resources>

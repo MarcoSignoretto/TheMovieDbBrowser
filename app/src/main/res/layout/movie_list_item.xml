@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    >
+
+    <android.support.v7.widget.CardView
+        style="@style/HomepageItem"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="@android:color/white"
+        android:foreground="?android:attr/selectableItemBackground"
+        app:cardCornerRadius="4dp"
+        app:cardElevation="4dp" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <com.facebook.drawee.view.SimpleDraweeView
+                android:id="@+id/posterImage"
+                android:layout_width="90dp"
+                android:layout_height="135dp"
+                tools:scaleType="fitCenter"
+                tools:placeholderImage="@drawable/ic_no_poster"
+                />
+
+            <LinearLayout
+                android:padding="@dimen/movie_list_item_text_padding"
+                android:layout_toEndOf="@id/posterImage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/HomepageItem.Title"
+                    android:id="@+id/title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    tools:text="Title"
+                    />
+
+                <TextView
+                    style="@style/HomepageItem.ReleaseDate"
+                    android:id="@+id/releaseDate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    tools:text="December 31, 2018"
+                    />
+
+                <TextView
+                    style="@style/HomepageItem.Overview"
+                    android:id="@+id/overview"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    tools:text="fgsdg jkfhgjkfdgh kdfgh fdjkg hd fjgh jkdfhgdfjgj fdhgjkfhgjk fhgdflgh dfhgdfjklhgh dfghjkdfh gfjkhgdfjkh ghdfjkhg dfjgh dfkl"
+                    />
+
+            </LinearLayout>
+
+
+
+        </RelativeLayout>
+
+
+
+
+
+
+    </android.support.v7.widget.CardView>
+
+
+
+</RelativeLayout>

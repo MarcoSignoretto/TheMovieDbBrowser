@@ -1,0 +1,117 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="HomepageList">
+        <item name="android:background">@color/colorBackground</item>
+    </style>
+
+
+    <!-- =========== BASE =============== -->
+    <style name="Default.Title" parent="">
+        <item name="android:textSize">@dimen/text_size_medium</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Default.Text" parent="">
+        <item name="android:textSize">@dimen/text_size_small</item>
+        <item name="android:textColor">@android:color/darker_gray</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="Default.ErrorView" parent="Default.Text">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/text_size_xxlarge</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">30dp</item>
+    </style>
+
+    <style name="RoundedButton" parent="">
+
+        <item name="android:background">@drawable/rounded_button_bg</item>
+        <item name="android:padding">@dimen/rounded_button_padding</item>
+        <item name="android:textSize">@dimen/text_size_xxxsmall</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+
+    <!-- =========== HOMEPAGE =========== -->
+
+    <style name="HomepageItem" parent="CardView">
+        <item name="android:layout_margin">@dimen/movie_item_margin</item>
+    </style>
+
+    <style name="HomepageItem.Title" parent="Default.Title">
+        <item name="android:ellipsize">end</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="HomepageItem.Overview" parent="Default.Text">
+        <item name="android:maxLines">3</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:singleLine">false</item>
+    </style>
+
+    <style name="HomepageItem.ReleaseDate" parent="Default.Text">
+        <item name="android:textStyle">italic</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="Homepage.ErrorView" parent="Default.ErrorView">
+    </style>
+
+    <style name="Homepage.EmptyView" parent="Default.Text">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/text_size_xxlarge</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">30dp</item>
+    </style>
+
+
+
+
+
+    <!-- ============= MovieDetail ============== -->
+    <style name="MovieDetail.Title" parent="Default.Title">
+    </style>
+
+    <style name="MovieDetail.Overview" parent="Default.Text">
+        <item name="android:singleLine">false</item>
+    </style>
+
+    <style name="MovieDetail.Label" parent="Default.Title">
+        <item name="android:textSize">@dimen/text_size_xsmall</item>
+    </style>
+
+    <style name="MovieDetail.Info" parent="Default.Title">
+        <item name="android:textSize">@dimen/text_size_large</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="MovieDetail.Value" parent="Default.Text">
+        <item name="android:textSize">@dimen/text_size_xxsmall</item>
+    </style>
+
+    <style name="MovieDetail.ErrorView" parent="Default.ErrorView">
+    </style>
+
+
+</resources>
